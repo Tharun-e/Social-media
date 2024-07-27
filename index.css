@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.profile-card {
+    background-color: #292929;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.location {
+    color: #a8ff00;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 14px;
+    margin: 15px 0;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons a {
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.buttons a:hover {
+    background-color: #555555;
+}
